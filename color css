@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COLORS IN CSS</title>
+    <style>
+      #first {
+        color: blueviolet; /* color by name*/
+      }
+      #second {
+        color: rgb(0, 0, 0); /*color rgb value*/
+      }
+      #third {
+        color: #ffff; 
+    /*color by hex value*/
+        background-color: springgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>I AM PARIKSHIT</h1>
+    <p id="first">
+      Wherever the colour property is used in CSS, you can apply any of the
+      above three methods. Certain more properties use colour, like border
+      property and background colour, which we will learn step by step as we
+      move ahead in building professional websites.
+    </p>
+    <h2>dfghjkl</h2>
+    <p id="second">
+      Wherever the colour property is used in CSS, you can apply any of the
+      above three methods. Certain more properties use colour, like border
+      property and background colour, which we will learn step by step as we
+      move ahead in building professional websites.
+    </p>
+    <h2>sbdbgvmksl</h2>
+    <p id="third">
+      Wherever the colour property is used in CSS, you can apply any of the
+      above three methods. Certain more properties use colour, like border
+      property and background colour, which we will learn step by step as we
+      move ahead in building professional websites.
+    </p>
+  </body>
+</html>
