@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML-Selectors</title>
     <style>
+      #first {
+        color: violet;
+      }
       .redElement {
         color: coral;
       }
@@ -16,7 +19,7 @@
   </head>
   <body>
     <h1>CSS SELECTORS</h1>
-    <p>
+    <p id="first">
       This is yet another simple paragraph inside div to demonstrate css
       selectors
     </p>
