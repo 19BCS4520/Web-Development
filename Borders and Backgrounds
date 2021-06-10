@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Borders and Backgrounds</title>
+    <style>
+      #f {
+        background-color: violet;
+        height: 100px;
+        width: 455px;
+        border-style: solid;
+        border-color: teal;
+        border-radius: 4px;
+      }
+      #s {
+        background-color: violet;
+        height: 100px;
+        width: 455px;
+        border-style: solid;
+        border-top: springgreen;
+        border-left: yellow;
+        border-right: wheat;
+        border-bottom-color: blueviolet;
+      }
+      #T {
+        height: 300px;
+        width: 455px;
+        background-image: url("https://scx2.b-cdn.net/gfx/news/hires/2018/1-illuminating.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is first heading</h1>
+    <p id="f">this is paragraph</p>
+    <h1>This is second heading</h1>
+    <p id="s">this is second paragraph</p>
+    <h1>This is third heading</h1>
+    <p id="T">this is Third paragraph</p>
+  </body>
+</html>
