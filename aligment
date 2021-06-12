@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aligment</title>
+    <link href="https://fonts.google.com/specimen/Ubuntu" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <style>
+      * {
+      }
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      .container {
+        
+        width: 900px;
+        border: 3px solid purple;
+        margin: auto; /* center the table*/
+        border: 3px solid purple;
+        border: 3px solid purple;
+      }
+
+      .item {
+        border: 3px solid rgb(181, 221, 38);
+        margin: 12px 3px;
+        padding: 12px 3px;
+        background-color: rgb(146, 120, 133);
+        border: 3px solid rgb(221, 38, 38);
+        font-size: medium;
+        font: italic;
+      }
+      #fruits {
+        float: left;
+        width: 48%;
+      }
+      #computer {
+        float: right;
+        width: 48%;
+      }
+      #pen {
+        /* float: left;*/
+        clear: both;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="fruits" class="item">
+        <h3>Fruits</h3>
+        <p id="fruitspara" class="para">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias,
+          consectetur quaerat, mollitia tempora repellat, ab voluptate omnis
+          temporibus non iure consequatur nam totam beatae sit eius quam! Porro,
+          vero aperiam. Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Provident quisquam fuga laboriosam? Quo ducimus aliquam,
+          voluptatum dolores rerum cumque molestiae eaque omnis temporibus illum
+          ipsam eligendi velit architecto a quis!
+        </p>
+      </div>
+      <div id="computer" class="item">
+        <h3>DELL</h3>
+        <p id="computerspara" class="para">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias,
+          consectetur quaerat, mollitia tempora repellat, ab voluptate omnis
+          temporibus non iure consequatur nam totam beatae sit eius quam! Porro,
+          vero aperiam. Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Eligendi labore minus modi consequatur, veniam obcaecati animi
+          et nesciunt neque, similique perspiciatis culpa adipisci, officiis sed
+          sint doloremque pariatur ducimus mollitia?
+        </p>
+      </div>
+      <div id="pen" class="item">
+        <h3>Renlod</h3>
+        <p id="penspara" class="para">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias,
+          consectetur quaerat, mollitia tempora repellat, ab voluptate omnis
+          temporibus non iure consequatur nam totam beatae sit eius quam! Porro,
+          vero aperiam.
+        </p>
+
+      </div>
+    </div>
+    <div id="glasses" class="item">
+      <h3>Glassses</h3>
+      <p id="glassesspara" class="para">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias,
+        consectetur quaerat, mollitia tempora repellat, ab voluptate omnis
+        temporibus non iure consequatur nam totam beatae sit eius quam! Porro,
+        vero aperiam.
+      </p>
+      </div>
+    </div>
+  </body>
+</html>
