@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes leaves {
+  from {
+    transform: skewX(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: skewX(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes plants {
+  from {
+    transform: rotateZ(0deg) skewx(0);
+  }
+  to {
+    transform: rotateZ(0deg) skewx(15deg);
+  }
+}
+
+@keyframes clouds {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes girl {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-4%);
+  }
+}
+
+body {
+  text-align: center;
+  background: black;
+}
+
+#leaves {
+  animation: leaves 20s ease-in-out infinite;
+  transform-origin: center;
+}
+
+#cloud-1,
+#cloud-2 {
+  animation: clouds 10s ease-in-out infinite;
+}
+
+@for $i from 1 through 6 {
+  #plant-#{$i} {
+    animation: plants 5s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+}
+
+#girl {
+  animation: girl 3s ease-in-out infinite alternate;
+}

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="gym.css" />
+    <title>Gym!</title>
+  </head>
+  <body>
+    <nav
+      class="py-2 bg-dark border-bottom pos"
+      style="position: sticky; top: 0px; z-index: 10"
+    >
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link link-light px-2 active"
+              aria-current="page"
+              >Home</a
+            >
+          </li>
+          
+        </ul>
+        <ul class="nav">
+          <li class="nav-item">
+            
+            <a href="./LoginF.html" class="nav-link link-light px-2">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="./Registration.html" class="nav-link link-light px-2">Register</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="py-3 border-bottom pos">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a
+          href="/"
+          class="
+            d-flex
+            align-items-center
+            mb-3 mb-lg-0
+            me-lg-auto
+            text-dark text-decoration-none
+          "
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <img src="icongym.jpg" alt="" />
+          <span class="fs-4 font ">The Gym </span>
+        </a>
+        <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form> -->
+      </div>
+    </header>
+
+   <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button 
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="c1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>
+              Take care of your body. It's the only place you have to live
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="c2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>
+              You don’t know your limits until you push yourself past them.
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="video-contain"><iframe width="100%" height="600px" allowfullscreen="allowfullscreen" frameborder="0" mozallowfullscreen="mozallowfullscreen" src="https://www.youtube.com/embed/KFSsMS2mZkM" webkitallowfullscreen="webkitallowfullscreen"></iframe></div></div>
+
+          <!-- <img height="600px" src="gym3.jpg" class="d-block w-100" alt="..." /> -->
+          <!-- <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div> -->
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+<br>
+    <div class="con my-4">
+      <div class="elementor-image">
+        <noscript
+          ><img
+            width="180"
+            height="173"
+            src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/coach.png"
+            class="attachment-large size-large"
+            alt="" /></noscript
+        ><img
+          width="180"
+          height="173"
+          src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/coach.png"
+          data-src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/coach.png"
+          class="attachment-large size-large ls-is-cached lazyloaded"
+          alt=""
+        />
+      </div>
+
+      <div class="elementor-image">
+        <noscript
+          ><img
+            width="180"
+            height="173"
+            src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/care.png"
+            class="attachment-large size-large"
+            alt="" /></noscript
+        ><img
+          width="180"
+          height="173"
+          src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/care.png"
+          data-src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/care.png"
+          class="attachment-large size-large ls-is-cached lazyloaded"
+          alt=""
+        />
+      </div>
+
+      <div class="elementor-image">
+        <a href="https://www.anytimefitness.co.in/membership/">
+          <noscript
+            ><img
+              width="180"
+              height="173"
+              src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/connect.png"
+              class="attachment-large size-large"
+              alt="" /></noscript
+          ><img
+            width="180"
+            height="173"
+            src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/connect.png"
+            data-src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/connect.png"
+            class="attachment-large size-large ls-is-cached lazyloaded"
+            alt=""
+          />
+        </a>
+      </div>
+    </div>
+<br>
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+      <div class="py-5">
+        <h1 class="display-5 text-white font">
+          All progress takes place outside the comfort zone.
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-2">
+            We are the best in the town in terms of service so far. Give us a
+            try
+          </p>
+          <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button
+              type="button"
+              class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
+            >
+              Custom button
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg px-4">
+              Secondary
+            </button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="head" style="margin: 20px">
+      <div class="section-header">
+        <h2 style="font-size: xxx-large">Our Trainers</h2>
+      </div>
+      <br />
+      <br />
+    </div>
+    <div class="cont" style="margin: 20px">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="single-team">
+            <img
+              src="fitness-465205_1920.jpg"
+              alt=""
+            />
+            <div class="team-text">
+              <h2>Harry</h2>
+              <h5>Head Trainer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="single-team">
+            <img
+              src="trainer4.jpg"
+              alt=""
+            />
+            <div class="team-text">
+              <h2>Simon</h2>
+              <h5>Fitness Trainer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="single-team">
+            <img src="boxer.jpg" alt="" />
+            <div class="team-text">
+              <h2>David</h2>
+              <h5>Boxing Trainer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="single-team">
+            <img src="woman-3053492_1920.jpg" alt="" />
+            <div class="team-text">
+              <h2>Nancy</h2>
+              <h5>Yoga Trainer</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pricing" class="pricing-area section-padding">
+      <div class="container">
+        <div class="price font">
+          
+            <br>
+            <h2 style="color: #58a9cf; font-size: 50px;">Our Package</h2>
+            
+            
+          
+        </div>
+        <div class="row">
+          <div class=" fee col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="single-pricing">
+              <h2 class = "font price" style="color:azure;">Personal</h2>
+              <p class="line3"></p>
+              <p class="price-section">
+                <sup>$</sup>
+                <span>49</span>
+                <sub>/mo</sub>
+              </p>
+              <ul class="deals">
+                <li>4 Days a week</li>
+                <li>No Dedicated Trainer</li>
+                <li>No Diet Plan</li>
+                <li>Morning Batch only</li>
+                <li>No Yoga Classes</li>
+              </ul>
+              <a href="./loader.html">Enroll Now</a>
+            </div>
+          </div>
+          <div class="fee col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="single-pricing active">
+              <h2 class = "font price" style="color: azure;">Enterprise</h2>
+              <p class="line3"></p>
+              <p class="price-section">
+                <sup>$</sup>
+                <span>79</span>
+                <sub>/mo</sub>
+              </p>
+              <ul class="deals">
+                <li>5 Days a week</li>
+                <li>Dedicated Trainer</li>
+                <li>Diet Plan included</li>
+                <li>Morning &amp; evening Batch</li>
+                <li>No Yoga Classes</li>
+              </ul>
+              <a href="./loader.html">Enroll Now</a>
+            </div>
+          </div>
+        
+          <div class="fee col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="single-pricing">
+              <h2 class = "font price" style="color: azure;">Proffesional</h2>
+              <p class="line3"></p>
+              <p class="price-section">
+                <sup>$</sup>
+                <span>99</span>
+                <sub>/mo</sub>
+              </p>
+              <ul class="deals">
+                <li>6 Days a week</li>
+                <li>Dedicated Trainer</li>
+                <li>Diet Plan included</li>
+                <li>Morning &amp; evening Batch</li>
+                <li>Yoga Classes</li>
+              </ul>
+              <a href="./loader.html">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<br>
+<br>
+<div class="head" style="margin: 20px">
+  <div class="section-header">
+    <h2 style="font-size: xxx-large">Features</h2>
+  </div>
+  <br />
+  <br />
+</div>
+    <div class="con me-6">
+      <figure class="elementor-image-box-img">
+        <noscript
+          ><img
+            width="125"
+            height="135"
+            src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/24X7.png"
+            class="attachment-medium size-medium"
+            alt="" /></noscript
+        ><img
+          width="125"
+          height="135"
+          src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/24X7.png"
+          data-src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/24X7.png"
+          class="attachment-medium size-medium lazyloaded"
+          alt=""
+        />
+        <div class="team-text">
+          <br>
+          <h2 style="color: #36365d">OPEN 24/7</h2>
+      
+        </div>
+      </figure>
+
+      <figure class="elementor-image-box-img">
+        <noscript
+          ><img
+            width="125"
+            height="135"
+            src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/ACCESS.png"
+            class="attachment-medium_large size-medium_large"
+            alt="Global Access"
+            srcset="
+              https://www.anytimefitness.co.in/wp-content/uploads/2020/07/ACCESS.png         238w,
+              https://www.anytimefitness.co.in/wp-content/uploads/2020/07/ACCESS-150x150.png 150w
+            "
+            sizes="(max-width: 238px) 100vw, 238px" /></noscript
+        ><img
+          width="125"
+          height="135"
+          src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/ACCESS.png"
+          data-src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/ACCESS.png"
+          class="attachment-medium_large size-medium_large lazyloaded"
+          alt="Global Access"
+          data-srcset="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/ACCESS.png 238w, https://www.anytimefitness.co.in/wp-content/uploads/2020/07/ACCESS-150x150.png 150w"
+          data-sizes="(max-width: 238px) 100vw, 238px"
+          sizes="(max-width: 238px) 100vw, 238px"
+          srcset="
+            https://www.anytimefitness.co.in/wp-content/uploads/2020/07/ACCESS.png         238w,
+            https://www.anytimefitness.co.in/wp-content/uploads/2020/07/ACCESS-150x150.png 150w
+          "
+        />
+        <div class="team-text">
+          <br>
+          <h2 style="color: #36365d">WORLDWIDE</h2>
+          <h2 style="color: #36365d">ACCESS</h2>
+        </div>
+      </figure>
+
+      <figure class="elementor-image-box-img">
+        <noscript
+          ><img
+            width="125"
+            height="135"
+            src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/PT.png"
+            class="attachment-full size-full"
+            alt="Personal Trainer" /></noscript
+        ><img
+          width="125"
+          height="135"
+          src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/PT.png"
+          data-src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/PT.png"
+          class="attachment-full size-full lazyloaded"
+          alt="Personal Trainer"
+        />
+        <div class="team-text">
+          <br>
+          <h2 style="color: #36365d">PERSONAL</h2>
+          <h2 style="color: #36365d">TRAINERS</h2>
+
+
+        </div>
+      </figure>
+      <figure class="elementor-image-box-img">
+        <noscript
+          ><img
+            width="115"
+            height="135"
+            src="https://www.anytimefitness.co.in/wp-content/uploads/elementor/thumbs/unnamed-1-p3h0nksprq4215ag9xnfxbrn622tr9mqsk05goljwg.png"
+            title="unnamed (1)"
+            alt="unnamed (1)" /></noscript
+        ><img
+          width="115"
+          height="135"
+          class="lazyloaded"
+          src="https://www.anytimefitness.co.in/wp-content/uploads/elementor/thumbs/unnamed-1-p3h0nksprq4215ag9xnfxbrn622tr9mqsk05goljwg.png"
+          data-src="https://www.anytimefitness.co.in/wp-content/uploads/elementor/thumbs/unnamed-1-p3h0nksprq4215ag9xnfxbrn622tr9mqsk05goljwg.png"
+          title="unnamed (1)"
+          alt="unnamed (1)"
+        />
+        <div class="team-text">
+          <br>
+          <h2 style="color: #36365d">WORKOUT</h2>
+          <h2 style="color: #36365d">USING APP</h2>
+
+          
+        </div>
+      </figure>
+    
+
+
+      <figure class="elementor-image-box-img">
+        <noscript
+          ><img
+            width="125"
+            height="135"
+            src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/RESTROOM.png"
+            class="attachment-full size-full"
+            alt="" /></noscript
+        ><img
+          width="125"
+          height="135"
+          src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/RESTROOM.png"
+          data-src="https://www.anytimefitness.co.in/wp-content/uploads/2020/07/RESTROOM.png"
+          class="attachment-full size-full lazyloaded"
+          alt=""
+        />
+        <div class="team-text">
+          <br>
+          <h2 style="color: #36365d">PRIVATE</h2>
+          <h2 style="color: #36365d">RESTROOMS</h2>
+
+
+        </div>
+      </figure>
+    </div>
+<br>
+    <footer class="container foot">
+      <p style="color: chocolate;">
+        ©️ 2020–2021 The Gym, Inc. · <a href="#">Privacy</a> ·
+        <a href="#">Terms</a>
+      </p>
+      <p class="float-end"><a href="#">Back to top</a></p>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

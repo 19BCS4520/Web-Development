@@ -1,0 +1,73 @@
+/*image source:https://unsplash.com/photos/eriuKJwcdjI*/
+body {
+  background-image: url(g1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+#conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 45px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+p {
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+  color: #ffffff;
+  text-shadow: 2px 2px 0 rgb(192 0 0), 2px -2px 0 rgb(221 0 0),
+    -2px 2px 0 rgb(213 36 36), -2px -2px 0 rgb(180 0 0),
+    2px 0px 0 rgb(234 104 104), 0px 2px 0 rgb(245 169 140),
+    -2px 0px 0 rgb(245 140 157), 0px -2px 0 rgb(211 24 24);
+}
+
+form {
+  background-color: hsla(0, 2%, 29%, 0.527);
+  height: 320px;
+  width: 250px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: cursive;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 900;
+  color: white;
+  position: absolute;
+  bottom: 150px;
+}
+
+input {
+  border-radius: 8px;
+}
+
+.remember {
+  color: black;
+  font-size: 15px;
+}
+
+#remember {
+  height: 15px;
+  width: 15px;
+}
+
+button {
+  height: 35px;
+  width: 250px;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 900;
+  background-color: rgb(178 33 56);
+  color: white;
+  position: relative;
+  top: 30px;
+  border-radius: 20px;
+}

@@ -1,0 +1,60 @@
+<?php
+$host="localhost";
+$user="root";
+$password="";
+$db="loginF";
+
+
+mysql_connect($Email,$Password);
+mysql_select_db($db);
+if(isset($_POST['Email'])){
+  $Email=$_POST['Email'];
+  $Password=$_POST['Password'];
+
+  $sql="select*form loginform where Email='".$Email."' AND " Password='".$Password."' limit 1 ";
+  $result=mysql_query($sql);
+    
+  if(mysql_num_rows($result)==1){
+      echo " You Have Successfully Logged in";
+      exit();
+  }
+  else{
+      echo " You Have Entered Incorrect Password";
+      exit();
+  }
+      
+}
+?>
+
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login form</title>
+    <link rel="stylesheet" href="loginF.css" />
+  </head>
+  <body>
+    
+    <div id="conteiner">
+      <form method="POST" action="./c.html">
+        <div class="Login">
+            <img src="icongym.jpg" alt="" />
+        <p>Login</p>
+        <label for="email">Email</label><br />
+        <input type="text" id="email" name="email" required /><br />
+        <label for="password">Password</label><br />
+        <input type="password" id="password" name="password" /><br /><br />
+        <label for="remember" class="remember">Remember me</label>
+        <input type="checkbox" id="remember" name="Remember" />
+        <button type="submit">Login</button>
+      </form>
+      <div id="error"></div>
+    </div>
+    
+    <script src="loginF.js"></script>
+  </body>
+  
+    
+</html>
